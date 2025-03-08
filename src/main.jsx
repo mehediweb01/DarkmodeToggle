@@ -5,9 +5,9 @@ import App from "./App.jsx";
 import { ThemeProvider } from "./ThemeContext/ThemeProvider.jsx";
 
 createRoot(document.getElementById("root")).render(
-  <ThemeProvider>
-    <StrictMode>
+  <StrictMode>
+    <ThemeProvider>
       <App />
-    </StrictMode>
-  </ThemeProvider>
+    </ThemeProvider>
+  </StrictMode>
 );

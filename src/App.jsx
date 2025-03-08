@@ -5,7 +5,7 @@ function App() {
   const { Theme, setTheme } = UseTheme();
   return (
     <>
-      <div className="flex justify-center items-center h-screen dark:bg-black bg-white">
+      <div className="flex justify-center items-center h-screen">
         <button
           type="button"
           onClick={() => setTheme(!Theme)}
