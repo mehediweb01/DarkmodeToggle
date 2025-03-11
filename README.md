@@ -15,8 +15,8 @@ Master Front-end Web Development with modern technologies like Tailwind CSS, Rea
 
 > ```bash
 > npm create vite@latest DarkModeToggler
-> npm install
 > cd DarkModeToggler
+> npm install
 > npm run dev
 > ```
 
